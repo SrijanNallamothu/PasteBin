@@ -1,5 +1,5 @@
 
-PasteBin Lite
+# PasteBin Lite
 
 A lightweight Pastebin-like web application that allows users to create text pastes and share a link to view them.
 
@@ -7,7 +7,7 @@ Pastes can optionally expire based on time (TTL) or number of views. Once a cons
 
 The application is built with Node.js (Express) and deployed on Vercel, with a simple React.js UI for creating and viewing pastes.
 
-Features
+# Features
 
 - Create a text paste and receive a shareable URL
 
@@ -23,7 +23,7 @@ Features
 
 - Works in serverless environments
 
-API Endpoints
+# API Endpoints
 
 GET /api/healthz – Health check
 
@@ -33,7 +33,7 @@ GET /api/pastes/:id – Fetch a paste (counts as a view)
 
 GET /p/:id – View paste as HTML
 
-Running the Project on Vercel
+# Running the Project on Vercel
 
 Backend (Node.js) running on  https://paste-bin-tau.vercel.app/
 Fronend (React.js) running on  https://pastebin-ui-seven.vercel.app/
@@ -220,7 +220,7 @@ HTTP/1.1 400 Bad Request
 You can also test the project using frontend running on https://pastebin-ui-seven.vercel.app/
 
 
-Running the Project Locally
+# Running the Project Locally
 
 Prerequisites
 
@@ -296,7 +296,7 @@ Frontend will be available at:
 http://localhost:3001
 
 
-Persistence Layer
+# Persistence Layer
 
 The application uses Upstash Redis as its persistence layer.
 
