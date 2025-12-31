@@ -261,9 +261,9 @@ npm start
 
 The server will start on:
 
-http://localhost:3000
+http://localhost:5000
 
-you can also test the project by giving the same test cases as used in vercel you have to just change the url  to http://localhost:3000 inplace of https://paste-bin-tau.vercel.app
+you can also test the project by giving the same test cases as used in vercel you have to just change the url  to http://localhost:5000 inplace of https://paste-bin-tau.vercel.app
 
 
 5. (Optional) Start the Frontend
@@ -274,16 +274,12 @@ In Home.js and PasteView.js
 
 use 
 
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "http://localhost:5000";
 
 inplace of 
 
-const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3000";
-// const BASE_URL = "http://localhost:3000";
-
-Run Backend first so that it runs on port 3000 then run frontend so that it runs on 3001
-
-Both should not run on same port and backend must run on 3000.
+const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:5000";
+// const BASE_URL = "http://localhost:5000";
 
 Steps to run :
 
@@ -293,7 +289,7 @@ npm start
 
 Frontend will be available at:
 
-http://localhost:3001
+http://localhost:3000
 
 
 # Persistence Layer
